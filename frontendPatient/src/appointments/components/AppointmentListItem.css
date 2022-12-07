@@ -1,0 +1,37 @@
+.appointment-item {
+  margin: 1rem 0;
+}
+
+.appointment-item__content {
+  padding: 0;
+}
+
+.appointment-item__info {
+  padding: 1rem;
+  text-align: center;
+}
+
+.appointment-item__info h2,
+.appointment-item__info h3,
+.appointment-item__info p {
+  margin: 0 0 0.5rem 0;
+}
+
+.appointment-item__actions {
+  padding: 1rem;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+
+.appointment-item__modal-content {
+  padding: 0;
+}
+
+.appointment-item__modal-actions {
+  text-align: right;
+}
+
+.appointment-item__actions button,
+.appointment-item__actions a {
+  margin: 0.5rem;
+}

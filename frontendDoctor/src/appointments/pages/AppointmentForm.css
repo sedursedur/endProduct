@@ -1,0 +1,42 @@
+.appointment {
+  width: 90%;
+  max-width: 40rem;
+  margin: 7rem auto;
+  text-align: center;
+}
+
+.appointment form{
+  margin: 1rem 0;
+  margin-bottom: 1rem;
+}
+
+
+.appointment input,
+.appointment label,
+.appointment textarea
+{
+  display: block;
+}
+
+.appointment label{
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.appointment input,
+.appointment textarea
+{
+  width: 100%;
+  font: inherit;
+  border: 1px solid #ccc;
+  background: #f8f8f8;
+  padding: 0.15rem 0.25rem;
+}
+
+.appointment input:focus,
+.appointment textarea:focus
+{
+outline: none;
+background: #ebebeb;
+border-color: #510077;
+}

@@ -1,0 +1,47 @@
+.authentication__header {
+  color: white;
+  text-align: center;
+}
+
+.authentication {
+  width: 90%;
+  max-width: 25rem;
+  margin: 7rem auto;
+  text-align: center;
+}
+
+.authentication form {
+  margin: 1rem 0;
+  margin-bottom: 1rem;
+}
+
+.authentication label,
+.authentication input,
+.authentication section,
+.authentication select,
+.authentication textarea {
+  display: block;
+}
+
+.authentication label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.authentication input,
+.authentication select,
+.authentication textarea {
+  width: 100%;
+  font: inherit;
+  border: 1px solid #ccc;
+  background: #f8f8f8;
+  padding: 0.15rem 0.25rem;
+}
+
+.authentication input:focus,
+.authentication select:focus,
+.authentication textarea:focus {
+  outline: none;
+  background: #ebebeb;
+  border-color: #510077;
+}
